@@ -1,4 +1,4 @@
-$image-search-path: 'C:/Users/Sahal/Documents/GitHub/Radix/build/development/Radix/resources';
+$image-search-path: 'I:/Workspace/Radix/Palmtrix/Radix/build/development/Radix/resources';
 $theme-name:  'ext-theme-crisp' !default;
 $include-ext-abstractcomponent: true;
 $include-ext-abstractcontainer: true;
@@ -893,17 +893,61 @@ $include-radix-application: true;
 $include-radix-view-main-main: true;
 $include-radix-view-main-maincontroller: true;
 $include-radix-view-main-mainmodel: true;
+$include-radix-view-ux-navbar-navbar: true;
+$include-radix-view-ux-navbar-navbarbutton: true;
+
+
+/* ======================== ETC ======================== */
+
 /* including package ext-theme-base */
+$ext-theme-base-resource-root: '' !default;
+$ext-theme-base-resource-path: 'images' !default;
+$current-package: 'ext-theme-base';
+$current-resource-root: $ext-theme-base-resource-root;
+$relative-image-path-for-uis: $ext-theme-base-resource-path;
 @import '../../../../../ext/packages/ext-theme-base/sass/etc/all';
+
 /* including package ext-theme-neutral */
+$ext-theme-neutral-resource-root: '' !default;
+$ext-theme-neutral-resource-path: 'images' !default;
+$current-package: 'ext-theme-neutral';
+$current-resource-root: $ext-theme-neutral-resource-root;
+$relative-image-path-for-uis: $ext-theme-neutral-resource-path;
 @import '../../../../../ext/packages/ext-theme-neutral/sass/etc/all';
+
 /* including package ext-theme-neptune */
+$ext-theme-neptune-resource-root: '' !default;
+$ext-theme-neptune-resource-path: 'images' !default;
+$current-package: 'ext-theme-neptune';
+$current-resource-root: $ext-theme-neptune-resource-root;
+$relative-image-path-for-uis: $ext-theme-neptune-resource-path;
 @import '../../../../../ext/packages/ext-theme-neptune/sass/etc/all';
+
 /* including package ext-theme-neptune-touch */
+$ext-theme-neptune-touch-resource-root: '' !default;
+$ext-theme-neptune-touch-resource-path: 'images' !default;
+$current-package: 'ext-theme-neptune-touch';
+$current-resource-root: $ext-theme-neptune-touch-resource-root;
+$relative-image-path-for-uis: $ext-theme-neptune-touch-resource-path;
 @import '../../../../../ext/packages/ext-theme-neptune-touch/sass/etc/all';
+
 /* including package ext-theme-crisp */
+$ext-theme-crisp-resource-root: '' !default;
+$ext-theme-crisp-resource-path: 'images' !default;
+$current-package: 'ext-theme-crisp';
+$current-resource-root: $ext-theme-crisp-resource-root;
+$relative-image-path-for-uis: $ext-theme-crisp-resource-path;
 @import '../../../../../ext/packages/ext-theme-crisp/sass/etc/all';
+
+
+/* ======================== VAR ======================== */
+
 /* including package ext-theme-crisp */
+$ext-theme-crisp-resource-root: '' !default;
+$ext-theme-crisp-resource-path: 'images' !default;
+$current-package: 'ext-theme-crisp';
+$current-resource-root: $ext-theme-crisp-resource-root;
+$relative-image-path-for-uis: $ext-theme-crisp-resource-path;
 @import '../../../../../ext/packages/ext-theme-crisp/sass/var/Component';
 @import '../../../../../ext/packages/ext-theme-crisp/sass/var/panel/Tool';
 @import '../../../../../ext/packages/ext-theme-crisp/sass/var/button/Button';
@@ -927,7 +971,13 @@ $include-radix-view-main-mainmodel: true;
 @import '../../../../../ext/packages/ext-theme-crisp/sass/var/layout/container/Accordion';
 @import '../../../../../ext/packages/ext-theme-crisp/sass/var/resizer/Resizer';
 @import '../../../../../ext/packages/ext-theme-crisp/sass/var/window/Toast';
+
 /* including package ext-theme-neptune-touch */
+$ext-theme-neptune-touch-resource-root: '' !default;
+$ext-theme-neptune-touch-resource-path: 'images' !default;
+$current-package: 'ext-theme-neptune-touch';
+$current-resource-root: $ext-theme-neptune-touch-resource-root;
+$relative-image-path-for-uis: $ext-theme-neptune-touch-resource-path;
 @import '../../../../../ext/packages/ext-theme-neptune-touch/sass/var/Component';
 @import '../../../../../ext/packages/ext-theme-neptune-touch/sass/var/ProgressBar';
 @import '../../../../../ext/packages/ext-theme-neptune-touch/sass/var/panel/Tool';
@@ -958,7 +1008,13 @@ $include-radix-view-main-mainmodel: true;
 @import '../../../../../ext/packages/ext-theme-neptune-touch/sass/var/layout/container/Accordion';
 @import '../../../../../ext/packages/ext-theme-neptune-touch/sass/var/menu/Menu';
 @import '../../../../../ext/packages/ext-theme-neptune-touch/sass/var/slider/Multi';
+
 /* including package ext-theme-neptune */
+$ext-theme-neptune-resource-root: '' !default;
+$ext-theme-neptune-resource-path: 'images' !default;
+$current-package: 'ext-theme-neptune';
+$current-resource-root: $ext-theme-neptune-resource-root;
+$relative-image-path-for-uis: $ext-theme-neptune-resource-path;
 @import '../../../../../ext/packages/ext-theme-neptune/sass/var/Component';
 @import '../../../../../ext/packages/ext-theme-neptune/sass/var/LoadMask';
 @import '../../../../../ext/packages/ext-theme-neptune/sass/var/ProgressBar';
@@ -997,7 +1053,13 @@ $include-radix-view-main-mainmodel: true;
 @import '../../../../../ext/packages/ext-theme-neptune/sass/var/resizer/Resizer';
 @import '../../../../../ext/packages/ext-theme-neptune/sass/var/selection/CheckboxModel';
 @import '../../../../../ext/packages/ext-theme-neptune/sass/var/window/Toast';
+
 /* including package ext-theme-neutral */
+$ext-theme-neutral-resource-root: '' !default;
+$ext-theme-neutral-resource-path: 'images' !default;
+$current-package: 'ext-theme-neutral';
+$current-resource-root: $ext-theme-neutral-resource-root;
+$relative-image-path-for-uis: $ext-theme-neutral-resource-path;
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/Component';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/FocusManager';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/LoadMask';
@@ -1047,10 +1109,23 @@ $include-radix-view-main-mainmodel: true;
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/ux/dashboard/GoogleRssView';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/view/MultiSelector';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/var/window/Toast';
+
 /* including package ext-theme-base */
-@import '../../../../../ext/packages/ext-theme-base/sass/var/Component';
-/* including package ext-theme-base */
+$ext-theme-base-resource-root: '' !default;
 $ext-theme-base-resource-path: 'images' !default;
+$current-package: 'ext-theme-base';
+$current-resource-root: $ext-theme-base-resource-root;
+$relative-image-path-for-uis: $ext-theme-base-resource-path;
+@import '../../../../../ext/packages/ext-theme-base/sass/var/Component';
+
+
+/* ======================== RULE ======================== */
+
+/* including package ext-theme-base */
+$ext-theme-base-resource-root: '' !default;
+$ext-theme-base-resource-path: 'images' !default;
+$current-package: 'ext-theme-base';
+$current-resource-root: $ext-theme-base-resource-root;
 $relative-image-path-for-uis: $ext-theme-base-resource-path;
 @import '../../../../../ext/packages/ext-theme-base/sass/src/scroll/Scroller';
 @import '../../../../../ext/packages/ext-theme-base/sass/src/rtl/util/Renderable';
@@ -1112,8 +1187,12 @@ $relative-image-path-for-uis: $ext-theme-base-resource-path;
 @import '../../../../../ext/packages/ext-theme-base/sass/src/resizer/Resizer';
 @import '../../../../../ext/packages/ext-theme-base/sass/src/selection/CheckboxModel';
 @import '../../../../../ext/packages/ext-theme-base/sass/src/slider/Multi';
+
 /* including package ext-theme-neutral */
+$ext-theme-neutral-resource-root: '' !default;
 $ext-theme-neutral-resource-path: 'images' !default;
+$current-package: 'ext-theme-neutral';
+$current-resource-root: $ext-theme-neutral-resource-root;
 $relative-image-path-for-uis: $ext-theme-neutral-resource-path;
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/Component';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/Editor';
@@ -1178,8 +1257,12 @@ $relative-image-path-for-uis: $ext-theme-neutral-resource-path;
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/ux/dashboard/GoogleRssView';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/view/MultiSelector';
 @import '../../../../../ext/packages/ext-theme-neutral/sass/src/window/Toast';
+
 /* including package ext-theme-neptune */
+$ext-theme-neptune-resource-root: '' !default;
 $ext-theme-neptune-resource-path: 'images' !default;
+$current-package: 'ext-theme-neptune';
+$current-resource-root: $ext-theme-neptune-resource-root;
 $relative-image-path-for-uis: $ext-theme-neptune-resource-path;
 @import '../../../../../ext/packages/ext-theme-neptune/sass/src/button/Button';
 @import '../../../../../ext/packages/ext-theme-neptune/sass/src/toolbar/Toolbar';
